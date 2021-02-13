@@ -1,4 +1,5 @@
 
+
 function ValidateFName(fname) {
     if (fname.value == '') {
         alert("الرجاء ادخال الاسم");
