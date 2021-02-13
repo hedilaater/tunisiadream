@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+ 
+    <title> tunisia dream</title>
+ 
+    <link rel="stylesheet" 
+        href="style.css">
+ 
+    <script src="JavaScript.js"></script>
+</head>
+
+<div class="wrapper"  >
+    <div class="bg"></div>
+<div class="bg2"></div>
+<div class="bg3"></div> 
+<body>
+    <div  class="form-style-5">
+        <fieldset >            
+
+
+    <form name="RegistrationForm"  action="#" >
+        
+        <div id='t'>تسجيل الدخول</div>
+        <div class="ta"  id="tr1"><table border="0" align="center">
+            <tr>
+            <td> <input type="text" placeholder="الاسم"
+                 name="fname" onfocusout="return ValidateFName( 
+                     document.RegistrationForm.fname)" required /></td></tr>
+ 
+                    <tr>
+           <td><input type="text" placeholder="القب" 
+                name="lname" onfocusout="return ValidateLName(
+                    document.RegistrationForm.lname)" required /></td></tr>
+ 
+                    <tr>
+                    <td><input type="email" placeholder="البريد الالكتروني" 
+                name="email" onfocusout="return ValidateEmail(
+                    document.RegistrationForm.email)" required /></td></tr>
+                    <tr>
+                        <td><input type="number" placeholder="+216" 
+                    name="pwd" id="pwd" onfocusout="return Validatetele(
+                        document.RegistrationForm.tele)" required /></td></tr>
+ 
+                    <tr>
+                    <td><input type="password" placeholder=" كلمة السر" 
+                name="pwd" id="pwd" onfocusout="return ValidatePwd(
+                    document.RegistrationForm.pwd)" required /></td></tr>
+ 
+                    <tr>
+                    <td><input type="password" placeholder="تاكيد كلمة السر " 
+                name="confpwd" id="confpwd" onfocusout="return 
+                ValidateConfPwd(document.RegistrationForm.confpwd)" 
+                required /></td></tr>
+ </table>
+ <table  align="center">
+                <div id="ctr">
+                   <tr> <td><input type="submit" class="submitButton" placeholder="تسجيل"></td></tr>
+                    
+                </div>
+                </table>
+           
+       </fieldset>
+        </div>
+    
+    </form>
+</div<>
+</body>
+ 
+</html>
